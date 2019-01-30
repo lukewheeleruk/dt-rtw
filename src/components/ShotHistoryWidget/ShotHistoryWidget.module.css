@@ -1,0 +1,28 @@
+.ShotHistoryWidget {
+    width: 100%;
+    display: grid;
+    grid-auto-rows: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+}
+
+.ShotHistoryHit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    font-weight: 700;
+    color: #65A169;
+    letter-spacing: 0.05em;
+    overflow: hidden;
+}
+
+.ShotHistoryMiss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: #9b4f4f;
+    overflow: hidden;
+}
+

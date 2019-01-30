@@ -1,0 +1,49 @@
+.CurrentTarget {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #545454;
+    background: #3f3f3f;
+    font-size: 4em;
+    font-weight: 700;
+    margin: 0 auto 30px auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    -webkit-box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+}
+
+.CurrentTargetInfoContainer {
+    width:100px;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.CurrentTargetInfoTargetValueContainer {
+    width: 100%;
+}
+
+.CurrentTargetInfoAverageAccuracyContainer {
+    width: 100%;
+
+}
+
+.CurrentTarget h2 {
+    line-height: 1.1;
+}
+
+.CurrentTarget h5 {
+    font-size: 0.25em;
+    letter-spacing: 0.1em;
+    opacity: 0.6;
+    font-weight: 600;
+}
